@@ -4,6 +4,10 @@ A data analysis project on Ho Chi Minh City real estate market (2019-2022) using
 
 > **Project Goal:** To transform 450,000+ raw property listings into actionable investment insights using Python and Power BI.
 
+## 🧠 Key Insight Summary
+This dashboard reveals that while **listing volume concentrates around the 3–5 Billion VND range**, premium price-per-square-meter clusters emerge only in specific wards—highlighting a clear distinction between **supply dominance** and **true pricing power**.
+
+
 ## 📂 Data Scope
 * **Location:** District 7, Ho Chi Minh City (Vietnam).
 * **Time Period:** 2019 - 2022 (Pre & Post Pandemic Analysis).
@@ -19,7 +23,7 @@ A data analysis project on Ho Chi Minh City real estate market (2019-2022) using
 
 ### 2. Data Modeling (DAX Measures)
 Instead of using implicit averages, I built robust DAX measures to ensure calculation accuracy:
-* **Market Volume:** `Total Listings = COUNTROWS('Table')`
+* **Market Volume:** `Total Listings = COUNTROWS('Ho_Chi_Minh_City_Real_Estate_District7ed')`
 * **Sale Price Logic:** Used `CALCULATE` and `FILTER` to isolate "Sale" listings, calculating accurate `Avg Sale Unit Price` without rental data interference.
 * **Dynamic Analysis:** Implemented Time Intelligence logic to analyze trends over the 4-year period.
 
@@ -56,6 +60,7 @@ The dashboard tracks the following KPIs to assist investors:
 3.  **Interact:**
     * Hover over map points on Page 2 to see the **Custom Tooltip** feature.
     * Use the Slicers on the left to filter by `Ward` or `Category`.
+
 
 ---
 *Created with ❤️ using Power BI & Python*
