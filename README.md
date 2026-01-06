@@ -38,15 +38,17 @@ The dashboard tracks the following KPIs to assist investors:
 
 ### Page 1: Market Overview (Executive View)
 *Trends over time and key KPI summary.*
-!(images/page_1.png)
+![Page 1 – Market Overview](images/page_1.png)
+
 
 ### Page 2: Location & Price Analysis (Investor View)
 *Geospatial heatmaps and price-vs-area scatter plots.*
-!(images/page_2.png)
+![Page 2 – Location & Price Analysis](images/page_2.png)
+
 
 ### Page 3: Product Deep Dive (Buyer View)
 *Project-level dominance (Tree Map) and Price Range distribution.*
-!(images/page_3.png)
+![Page 3 – Product Deep Dive](images/page_3.png)
 
 ## 🚀 How to Run
 1.  **Clone the Repo:** Download the repository to your local machine.
